@@ -1,0 +1,7 @@
+cat ./src/tmp/httpd.conf
+
+vim ./src/tmp/httpd.conf
+
+*/5 * * * * cd /root/app/editFile/ && /usr/local/bin/node ./src/useCases/insertTxt.js
+
+/root/app/editFile/
